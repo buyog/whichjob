@@ -8,7 +8,7 @@ import DOM from "./dom";
 
 	function header() {
 		let root = DOM.createElement('header', {'id': 'main-head'}, [
-			DOM.createElement('h2', {innerText: "Which Job?"}),
+			DOM.createElement('h2', {innerText: "Which Job Where?"}),
 			DOM.createElement('a', {className: 'material-icons settings-link', 'href': '#', innerText: 'settings'})
 		]);
 		root.querySelector(".settings-link").addEventListener("click", (evt) => {
